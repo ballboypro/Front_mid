@@ -1,0 +1,65 @@
+/* TextArea.css */
+
+/* Styling for the text area container */
+.text-area-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Styling for the textarea input */
+  textarea {
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+    resize: none; /* Disable textarea resizing */
+  }
+  
+  /* Styling for the encoded text box */
+  .encoded-text-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the encoded text container */
+.encoded-text-container {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    /* Add these styles to control text visibility */
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+  
+  /* Styling for the encoded text itself within the container */
+  .encoded-text {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Styling for the encoded text */
+  .encoded-text-container {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
